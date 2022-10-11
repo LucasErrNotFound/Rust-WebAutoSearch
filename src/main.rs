@@ -27,6 +27,10 @@ fn main(){
                 Command::new("clear").status().unwrap();
                 fire::firefox();},
 
+            4 => {
+                println!("Sorry not available yet...");
+            },
+
             8 => {exit(0x0100);},
 
 
