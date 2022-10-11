@@ -31,6 +31,10 @@ fn main(){
                 println!("Sorry not available yet...");
             },
 
+            5 => {
+                println!("Sorry not available yet...");
+            },
+
             8 => {exit(0x0100);},
 
 
